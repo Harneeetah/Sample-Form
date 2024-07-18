@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Form</title>
+</head>
+<body>
+  <div>
+    <img src="images/altschool-africa-logo.png" width="5%"/>
+    <h2>Sign Up</h2>
+    <p> Take the next steps to apply to Altschool Africa</p>
+    <form action="/action_page.php">
+      <div style="font-size:15px;" >
+  <label for="fname">First Name</label><br/>
+  <input type="text" id="fname" placeholder="Enter first name" /><br/><br/>
+  <label for="lname">Last Name</label><br/>
+  <input type="text" id="lname" placeholder="Enter last name"/><br/><br/>
+  <label for="Gender"> Gender </label><br/>
+  <input list="Gender" name="Gender">
+  <datalist id="Gender">
+    <option value="Male">
+    <option value="Female">
+  </datalist> <br/><br/>
+  <label for="dob">Date of Birth</label><br/>
+  <input type="date" placeholder="dd/mm/yyyy" /><br/><br/>
+  <label for="email">Email</label><br/>
+  <input type="email" id="email" placeholder="Enter your email address" /><br/><br/>
+  <label for="Number">Phone Number</label><br/>
+  <input type="tel" id="Number" placeholder="08123456700" /><br/><br/>
+  <label for="Country"> Country </label><br/>
+  <input list="Country" name="Country">
+  <datalist id="Country">
+    <option value="Nigeria">
+    <option value="Ghana">
+    <option value="Niger">
+    <option value="Togo"> 
+  </datalist> <br/><br/>
+  <label for="residence">State/City of Residence</label><br/>
+  <input type="text" id="residence" placeholder="Enter your state of residence" /><br/><br/>
+  <label for="about-us">How did you hear about us?</label><br/>
+  <input list="about-us" placeholder="Select channel" name="about-us"/>
+  <datalist id="about-us">
+    <option value="Twitter">
+    <option value="Facebook">
+    <option value="Linkedin">
+    <option value="Youtube">
+    <option value="Friend">
+    <option value="WhatsApp">
+    <option value="Instagram">
+    <option value="Billboard">   
+  </datalist> <br/><br/>
+  <label for="Password">Password</label><br/>
+  <input type="password" id="password" placeholder="Enter password" /><br/><br/>
+  <label for="confirm-password">Confirm Password</label><br/>
+  <input type="password" id="confirm-password" placeholder="Enter password again" /><br/><br/>
+  <input type="submit" value="Submit" />
+</div>
+</form>
+</div>
+</body>
+</html>
