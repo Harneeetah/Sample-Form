@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altschool Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
   <div>
     <img src="images/altschool-africa-logo.png" width="5%"/>
     <nav>
-      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="index.html">Home</a>  
-      <a href="media.html">Media</a>
-      <a href="table.html">Table</a>          
+      <nav>
+        <ul>
+        <li style="float:left"><a href="index.html">Home</a></li>
+        <li><a href="form.html">Form</a></li>   
+        <li><a href="media.html">Media</a></li> 
+        <li><a href="table.html">Table</a></li> 
+        </ul>
+       </nav>
      </nav>
     <h2>Sign Up</h2> 
     <p> Take the next steps to apply to Altschool Africa</p>
@@ -54,12 +60,12 @@
     <option value="WhatsApp">
     <option value="Instagram">
     <option value="Billboard">   
-  </datalist> <br/><br/>
+  </datalist> <br/><br/> <!-- br is to break codes to a new line-->
   <label for="Password">Password</label><br/>
   <input type="password" id="password" placeholder="Enter password" /><br/><br/>
   <label for="confirm-password">Confirm Password</label><br/>
   <input type="password" id="confirm-password" placeholder="Enter password again" /><br/><br/>
-  <input type="submit" value="Submit" />
+  <button>Submit</button>  <!-- Submit button-->
 </div>
 </form>
 </div>

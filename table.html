@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-    <div>
+
         <img src="images/altschool-africa-logo.png" width="5%"/>
     <nav>
-        &nbsp;&nbsp; &nbsp;   <a href="index.html">Home</a>    
-        <a href="form.html">Form</a> 
-        <a href="media.html">Media</a>  
+      <nav>
+        <ul>
+        <li style="float:left"><a href="index.html">Home</a></li>
+        <li><a href="form.html">Form</a></li>   
+        <li><a href="media.html">Media</a></li> 
+        <li><a href="table.html">Table</a></li> 
+        </ul>
        </nav>
-
+       <h2>AltSchool Africa Table</h2>
        <table>
-        <tr>
+        <thead>
+            <tr>
           <th>School</th>
           <th>Courses</th>
         </tr>
+        </thead>
+        <hr width="100%" size="2" color="black" noshade>
+        <tbody>
         <tr>
           <td>SOE</td>
           <td>Frontend</td>
           <td>Backend</td> 
-          <td>Cloud</td> &nbsp;&nbsp; &nbsp;
+          <td>Cloud</td> 
           <td>CyberSecurity</td>
         </tr>
         <tr>
@@ -39,14 +48,15 @@
           <td>Data Analysis</td>
         </tr>
         <tr>
-          <td>SOB</td>
+          <td>SOB</td>&nbsp;&nbsp; &nbsp;
           <td>High-Impact Selling</td>
         </tr>
         <tr>
             <td>SOCE</td>
-            <td>Content Mastery for African Creatives</td>&nbsp;&nbsp; &nbsp;
+            <td>Content Mastery for African Creatives</td>
             <td>Navigating the Music Business in Africa</td>
           </tr>
+        </tbody>
       </table>
 </body>
 </html>
